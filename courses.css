@@ -1,0 +1,133 @@
+.course_main{
+  margin-top: 90px;
+}
+.C{
+  background-color: white;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+  margin-bottom: 20px;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.img_div{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+.c_img{
+  width: 250px;  
+  height: auto; 
+  max-width: 480px; 
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.c_container{
+  border-radius: 10px; 
+}
+.c_title {
+font-family: "Geologica", sans-serif;
+text-align: center;
+font-weight: bold;
+color: #002347;
+} 
+
+.c_brief{
+  font-family: "Geologica", sans-serif;
+  text-align: left;
+  color: #002347;
+  padding: 20px;
+}
+
+.c_read-more{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.c_read-more_button{
+  font-family: "Geologica", sans-serif;
+  height: 45px;
+  width: 100px;
+  border-radius: 10px;
+  color: white;
+  background-color: #ff5003;
+  border: none;
+  font-weight: bold;
+  margin-bottom: 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.c_read-more_button:hover{
+  background-color: #b73903;
+  color: rgb(190, 190, 190);
+  transform: scale(1.05);
+}
+a {
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 897px){
+  .course_main{
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (min-width: 1000px){
+  .C{
+    display: flex;
+  }
+  
+  .img_div{
+    display: inline;
+  }
+  
+  .c_img{
+    width: 100%; 
+    max-width: 400px; 
+  }
+  
+  .c_container{
+    display: flex;
+    flex-direction: column;
+    width: 720px;
+    border-radius: 10px;
+    
+  }
+  .c_title {
+  text-align: left;
+  font-size: x-large;
+  margin-top: 20px;
+  padding-left: 30px;
+  } 
+  
+  .c_brief{
+    text-align: justify;
+    padding-right: 40px;
+    padding-left: 30px;
+    height: 111px;
+  }
+  
+  .c_read-more{
+    display: inline;
+    bottom: 20px;
+    padding-left: 30px;
+    margin-top: 0;
+  }
+  
+  .c_read-more_button{
+    width: 150px;
+    font-size: medium;
+    text-decoration: none;
+  }
+}
+  
+@media only screen and (min-width: 1000px)and (max-width:1200px){
+  .c_brief{
+    height: auto;
+  }
+}

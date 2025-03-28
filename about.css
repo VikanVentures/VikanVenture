@@ -1,0 +1,110 @@
+.abt_main{
+    background-color: white;
+    margin-top: 90PX;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;   
+}
+/* company info */
+.abt-logo-div{
+    border-radius: 10px;
+}
+
+.abt-logo{
+    width: 300px;
+    border-radius: 10px;
+}
+.top-div{
+    display: flex;
+    
+}
+
+.bottom-div{
+    font-family: "Geologica", sans-serif;
+    text-align: left;
+    color: #002347;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+h1{
+    font-family: "Geologica", sans-serif;
+    font-weight: bold;
+    color: #002347;
+    text-align: left;
+}
+
+
+.abt_comapanyinfo{
+    background-color: white;
+    font-family: "Geologica", sans-serif;
+    text-align:left;
+    color: #002347;
+    border-radius: 10px;
+    padding: 20px;
+    padding-bottom: 0px;
+}
+/* founder info */
+#founder-title{
+    text-align: right;
+}
+
+.abt-person{
+    background-color: white;
+    margin-top: 20PX;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    display: flex;
+}
+
+.abt-person-info{
+    font-family: "Geologica", sans-serif;
+    text-align: justify;
+    color: #002347;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.abt-person-img{
+    border-radius: 10px;
+    margin-top: 80px;
+}
+.abt-img{
+    width: 250px;
+}
+@media only screen and (min-width: 897px){
+.abt_main{
+    margin-top: 20px;
+}
+}
+@media only screen and (max-width: 1200px){
+.abt-person{
+    display: inline-block;
+}
+.abt-logo-div{
+    display: none;
+  
+}
+.top-div{
+    display: inline;
+}
+.abt-person-info{
+    text-align: left;
+}
+#founder-title{
+    text-align: left;
+}
+.abt_comapanyinfo{
+    padding-bottom: 0;
+}
+.bottom-div{
+    padding-top: 0;
+
+}
+.abt-person-img{
+    margin-top: 10px;
+}
+}

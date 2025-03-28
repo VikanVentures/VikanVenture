@@ -1,0 +1,108 @@
+
+.container {
+    margin-left: 10% ;
+    margin-right: 10%;
+    padding: 20px;
+    margin-top: 90px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: block;    
+}
+h1 {
+    font-family: "Geologica", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: #002347;
+}
+h3{
+    font-family: "Geologica", sans-serif;
+    font-weight: bold;
+    color: #002347;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: "Geologica", sans-serif;
+    color: #002347;
+}
+input, textarea, select {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;     
+}
+ .mail_btn{
+    margin-top: 20px;
+    width: 150px;
+    padding: 10px;
+    background-color: #ff5003;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Geologica", sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(0, 0, 0, 0.3);
+
+}
+.mail_btn:hover {
+    background-color: #b73903;
+    transform: scale(1.05);
+}
+
+.mail-submit{
+    text-align: center;
+}
+
+.contact-info-div{
+    margin-left: 10%;
+    margin-right: 10% ;
+    padding: 30px;
+    margin-top: 20px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; 
+    display: block; 
+    font-family: "Geologica", sans-serif;
+}
+ 
+#headings-contact{
+    border-bottom: 1px solid #ccc;
+    margin: 15px 0;
+    padding-bottom: 10px;
+    color: #002347;
+}
+
+.logo{ 
+    margin-right: 55px;
+}
+@media only screen and (min-width: 1000px){
+.contact-main{
+    display: flex;
+}
+
+.container {
+    width: 900px; 
+    margin-right: 5%;  
+}
+.contact-info-div{
+    width: 500px;
+    margin-left: 5%;
+}
+ 
+.logo{
+    display: flex;
+}
+}
+
+@media only screen and (min-width: 897px){
+    .container{
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,50 @@
+.course-info-container{
+    background-color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(0, 0, 0, 0.3);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 90px;
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 10px ;
+    font-family: "Geologica", sans-serif;
+    color: #002347;
+  
+  }
+.enroll{
+  background-color: #ff5003;
+    margin-top: 20px;
+    height: 45px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: "Geologica", sans-serif;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(0, 0, 0, 0.3);
+    border: none;
+}
+.enroll-div{
+  text-align: center;
+}
+.enroll:hover{
+  background-color: #b73903;
+  transform: scale(1.05);
+}
+@media only screen and (min-width: 897px){
+  .course-info-container{
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (min-width: 1000px){
+  .course-info-container{
+    padding: 50px;
+    padding-top: 10px;
+  }
+
+.enroll-div{
+  text-align: left;
+}
+}

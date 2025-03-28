@@ -1,0 +1,30 @@
+.blog-main{
+    background-color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+    margin-bottom: 20px;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 90px;
+    border-radius: 10px;  
+    text-align: left;
+    padding: 10px;
+    
+}
+
+.blog-content{
+font-family: "Geologica", sans-serif;
+text-align: left;
+font-weight: bold;
+color: #002347;
+padding: 10px;
+}
+
+
+@media only screen and (min-width: 897px){
+    .blog-main{
+        margin-top: 20px;
+    }
+    .blog-content{
+        padding: 30px;
+    }
+}
