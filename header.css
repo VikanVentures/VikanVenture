@@ -61,7 +61,7 @@ header {
   font-size: small;
 }
 }
-@media only screen and (min-width: 1260px){
+@media only screen and (min-width: 1270px){
   .nav-bar li {
     margin-right: 40px;
     margin-left: 40px;
