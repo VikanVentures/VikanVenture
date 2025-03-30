@@ -52,7 +52,7 @@ header {
 .dropdown{
   display: none;
 }
-@media only screen and (min-width: 1055px){
+@media only screen and (min-width: 1061px){
   .nav-bar li {
     margin-right: 25px;
     margin-left: 25px;
@@ -61,7 +61,7 @@ header {
   font-size: small;
 }
 }
-@media only screen and (max-width: 1270px){
+@media only screen and (min-width: 1270px){
   .nav-bar li {
     margin-right: 40px;
     margin-left: 40px;
